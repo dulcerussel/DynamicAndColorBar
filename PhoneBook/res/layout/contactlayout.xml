@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccc999"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:id="@+id/imageview1"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal" />
+    
+    <EditText
+        android:id="@+id/contactname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#fafad2"
+		android:hint="Name" />
+
+    <EditText
+        android:id="@+id/contactphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#fafad2"
+		android:hint="Phone" />
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button 
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:background="#303030"
+            android:textColor="#fefefe"/>
+        <Button 
+            android:id="@+id/okey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OKEY"
+            android:layout_weight="1"
+            android:background="#303030"
+            android:textColor="#fefefe"/>
+    </LinearLayout>
+    
+    
+    
+    
+</LinearLayout>
